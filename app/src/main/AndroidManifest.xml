@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dreamersarena">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DreamersArena">
+        <activity android:name=".activities"></activity>
+        <activity android:name=".about_us" />
+        <activity android:name=".diyasini" />
+        <activity android:name=".sweta" />
+        <activity android:name=".shirish" />
+        <activity android:name=".anjali" />
+        <activity android:name=".akash" />
+        <activity android:name=".poulomi" />
+        <activity android:name=".members_all" />
+        <activity android:name=".members1" />
+        <activity android:name=".members" />
+        <activity android:name=".home" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
